@@ -1,0 +1,76 @@
+/* =========================
+   ESTILO GERAL DA PÁGINA
+   ========================= */
+
+/* Define o estilo básico da página e centraliza o quiz */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #2b2b2b;
+
+  /* Centraliza o conteúdo na tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Ocupa toda a tela do navegador */
+  width: 100vw;
+  height: 100vh;
+}
+
+/* =========================
+   CONTAINER DO QUIZ
+   ========================= */
+
+/* Área principal onde o quiz é exibido */
+#quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background: #383838;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  color: azure;
+}
+
+/* =========================
+   PERGUNTAS
+   ========================= */
+
+/* Estilo do texto da pergunta */
+.question {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   ALTERNATIVAS
+   ========================= */
+
+/* Estilo dos botões de resposta */
+.options button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  background: #706e6e;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+/* Efeito visual ao passar o mouse nos botões */
+.options button:hover {
+  background: #ddd;
+}
+
+/* =========================
+   TEMPORIZADOR
+   ========================= */
+
+/* Estilo do texto que exibe o tempo restante */
+#timer {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

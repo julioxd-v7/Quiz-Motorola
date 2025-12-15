@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Define o conjunto de caracteres e garante acentuação correta -->
+  <meta charset="UTF-8" />
+
+  <!-- Ajusta o site para funcionar bem em diferentes tamanhos de tela -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Título exibido na aba do navegador -->
+  <title>Quiz Motorola</title>
+
+  <!-- Importa o arquivo de estilos do projeto -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Container principal onde todo o quiz é exibido -->
+  <div id="quiz-container">
+
+    <!-- Área que mostra o tempo restante da pergunta -->
+    <div id="timer">
+      Tempo: <span id="time-left"></span>s
+    </div>
+
+    <!-- Área onde a pergunta atual é exibida -->
+    <div class="question" id="question-text"></div>
+
+    <!-- Área onde as alternativas de resposta são criadas dinamicamente -->
+    <div class="options" id="options"></div>
+
+  </div>
+
+  <!-- Importa o arquivo JavaScript responsável pela lógica do quiz -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
